@@ -162,6 +162,15 @@ isLessThan(11, 10);
  * @return {boolean} the numbers are equal
  */
 
+function areEqual(x, y){
+
+  if (x === y)
+    return true;
+    else return false;
+}
+
+areEqual(11, 10);
+
 /**
  * Returns the smallest value of two numbers.
  * @param {number} x
