@@ -209,12 +209,29 @@ maximum(11, 10);
  * @return {boolean} the number is even
  */
 
+ function isEven(n){
+
+  if (n%2 === 0)
+    return true;
+    else return false;
+}
+
+isEven(10);
+
 /**
  * Returns true if `n` is odd.
  * @param {number} n
  * @return {boolean} the number is odd
  */
 
+ function isOdd(n){
+
+  if (n%2 === 0)
+    return false;
+    else return true;
+}
+
+isOdd(10);
 /**
  * Returns a letter grade.
  * "A": 90-100%
