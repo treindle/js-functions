@@ -36,7 +36,7 @@ function decrease(number) {
  * @param {number} y
  * @return {number} the sum
  */
-function addTwo(x,y){
+function add(x,y){
   return x + y;
 }
 
@@ -47,6 +47,10 @@ function addTwo(x,y){
  * @param {number} y
  * @return {number} the difference
  */
+
+ function subtract(x,y){
+  return x - y;
+}
 
 /**
  * Multiplies two numbers.
