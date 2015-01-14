@@ -9,14 +9,16 @@ function numberToString(number){
 
 }
 
-
-
-
 /**
  * Adds one to a given number.
  * @param {number} n
  * @return {number}
  */
+
+ function increase(number) {
+
+  return number + 1;
+ }
 
 /**
  * Subtracts one from a given number.
