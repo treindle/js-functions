@@ -178,12 +178,30 @@ areEqual(11, 10);
  * @return {number} the smallest number
  */
 
+function minimum(x, y){
+
+  if (x < y)
+    return x;
+    else return y;
+}
+
+minimum(11, 10);
+
 /**
  * Returns the largest value of two numbers.
  * @param {number} x
  * @param {number} y
  * @return {number} the largest number
  */
+
+ function maximum(x, y){
+
+  if (x > y)
+    return x;
+    else return y;
+}
+
+maximum(11, 10);
 
 /**
  * Returns true if `n` is even.
