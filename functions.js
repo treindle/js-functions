@@ -94,11 +94,31 @@ function square(x){
  */
 
 function calculate(operation, x, y){
-  
+ var result;
+  if (operation === "add"){
+    result = add(x, y);
+    console.log(x + " + " + y + " = " + result);
 
-   console.log(4 + 7);
+  } else if (operation === "subtract"){
+    result = subtract(x, y);
+    console.log(x + " - " + y + " = " + result);
+
+  } else if (operation === "multiply"){
+    result = multiply(x, y);
+    console.log(x + " * " + y + " = " + result);
+
+  } else if (operation === "divide"){
+    result = divide(x, y);
+    console.log(x + " / " + y + " = " + result);
+  }
+
+ return result;
 
 }
+   
+calculate("add", 1, 2);
+ 
+
 
 
 
@@ -110,12 +130,24 @@ function calculate(operation, x, y){
  */
 
 
+function isGreaterThan(a, b){
+
+if (a > b){
+  return true;
+
+}
+isGreaterThan(9 , 10);
+}
+ 
+
 /**
  * Returns true if `a` is less than `b`.
  * @param {number} a
  * @param {number} b
  * @return {boolean} `a` is smaller than `b`
  */
+
+
 
 /**
  * Returns true if `a` and `b` are equal.
