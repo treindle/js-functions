@@ -244,6 +244,26 @@ isOdd(10);
  * @return {string} the score represented as a letter grade
  */
 
+
+
+      function letterGrade(score, total){
+       var grade = 100 * (score/total);
+
+        if(grade >= 90){
+          return "A";
+        }else if(grade >= 80 && grade < 90){
+          return "B";
+        }else if(grade >= 70 && grade < 80){
+          return "C";
+        }else if(grade >= 60 && grade < 70){
+          return "D";
+        }else if(grade >= 50 && grade < 60){
+          return "F";
+}
+
+}
+
+  letterGrade(60, 100);
 /**
  * Checks if a `restaurant` object has are `views` field.
  * If it does, increase it by 1. If it does not,
