@@ -70,6 +70,10 @@ function add(x,y){
  * @return {number} the quotient
  */
 
+ function divide(x,y){
+  return x / y;
+}
+
 /**
  * Multiplies a number by itself.
  * @param {number} x, number to be squared
