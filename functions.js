@@ -130,16 +130,15 @@ calculate("add", 1, 2);
  */
 
 
-function isGreaterThan(a, b){
+function isGreaterThan(x, y){
 
-if (a > b){
-  return true;
-
+  if (x > y)
+    return true;
+    else return false;
 }
-isGreaterThan(9 , 10);
-}
- 
 
+
+isGreaterThan(11, 10);
 /**
  * Returns true if `a` is less than `b`.
  * @param {number} a
