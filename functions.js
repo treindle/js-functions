@@ -137,8 +137,8 @@ function isGreaterThan(x, y){
     else return false;
 }
 
-
 isGreaterThan(11, 10);
+
 /**
  * Returns true if `a` is less than `b`.
  * @param {number} a
@@ -146,7 +146,14 @@ isGreaterThan(11, 10);
  * @return {boolean} `a` is smaller than `b`
  */
 
+function isLessThan(x, y){
 
+  if (x < y)
+    return true;
+    else return false;
+}
+
+isLessThan(11, 10);
 
 /**
  * Returns true if `a` and `b` are equal.
