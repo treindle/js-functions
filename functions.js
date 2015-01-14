@@ -36,7 +36,9 @@ function decrease(number) {
  * @param {number} y
  * @return {number} the sum
  */
-
+function addTwo(x,y){
+  return x + y;
+}
 
 
 /**
