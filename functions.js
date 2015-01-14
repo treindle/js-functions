@@ -25,6 +25,10 @@ function numberToString(number){
  * @param {number} n
  * @return {number}
  */
+function decrease(number) {
+
+  return number - 1;
+}
 
 /**
  * Adds two numbers.
@@ -32,6 +36,8 @@ function numberToString(number){
  * @param {number} y
  * @return {number} the sum
  */
+
+
 
 /**
  * Subtracts the second number from the first.
