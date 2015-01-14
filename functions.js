@@ -271,6 +271,17 @@ isOdd(10);
  * @param {object} restaurant represents a restaurant
  */
 
+ function incrementReviews(restaurant){
+var outBack = restaurant.reviews;
+
+
+  if (restaurant.reviews >= 1)
+    return reviews + 1;
+    else return 1;
+
+}
+incrementReviews({reviews: 10});
+
 /**
  * Joins two strings with a space.
  * @param {string} word1
