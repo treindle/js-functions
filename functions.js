@@ -93,12 +93,22 @@ function square(x){
  * @return {number} the result
  */
 
+function calculate(operation, x, y){
+  
+
+   console.log(4 + 7);
+
+}
+
+
+
 /**
  * Returns true if `a` is greater than `b`.
  * @param {number} a
  * @param {number} b
  * @return {boolean} `a` is larger than `b`
  */
+
 
 /**
  * Returns true if `a` is less than `b`.
