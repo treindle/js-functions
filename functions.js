@@ -264,23 +264,25 @@ isOdd(10);
 }
 
   letterGrade(60, 100);
-/**
- * Checks if a `restaurant` object has are `views` field.
- * If it does, increase it by 1. If it does not,
- * set itsreviews` field to 1.
- * @param {object} restaurant represents a restaurant
+//**
+ /* Checks if a `restaurant` object has a `reviews` field.
+ * If it does, increase the `reviews` value by 1. 
+ * If it does not, set the `reviews` value to 1.
+ * @param {object} restaurant   represents a restaurant object
+ * @return {object} restaurant
  */
 
  function incrementReviews(restaurant){
-var outBack = restaurant.reviews;
+  
+  if (restaurant.hasOwnProperty("reviews")){
+  restaurant.reviews += 1;
 
-
-  if (restaurant.reviews >= 1)
-    return reviews + 1;
-    else return 1;
-
+} else { 
+  restaurant.reviews = 1; 
+} 
+  return restaurant;
 }
-incrementReviews({reviews: 10});
+
 
 /**
  * Joins two strings with a space.
@@ -289,6 +291,16 @@ incrementReviews({reviews: 10});
  * @return {string} joined the words joined with a space
  */
 
+ function combine(word1, word2){
+ 
+var string = (word1 + " " + word2);
+return string;
+ }
+ combine("yes", "no");
+
+
+
+
 /**
  * Returns a circle object with the properties `circumference` and `area`.
  * Use Math.PI for the value π.
@@ -296,3 +308,22 @@ incrementReviews({reviews: 10});
  * @param {number} radius
  * @return {object} circle
  */
+
+function createCircle(radius){
+  var circle = {
+
+    circumference : (Math.PI * 2 * radius),
+    area : (Math.PI * radius * radius)
+
+  };
+   
+
+    
+   
+
+
+    
+  return circle;
+
+}
+    

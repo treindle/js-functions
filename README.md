@@ -220,16 +220,13 @@ Returns a letter grade.
 
 incrementReviews(restaurant)
 -----------------------------
-Checks if a `restaurant` object has a `reviews` field.
-If it does, increase it by 1. If it does not,
-set its `reviews` field to 1.
-
-**Parameters**
-
-**restaurant**: object, represents a restaurant
-
-
-combine(word1, word2)
+/**
+ * Checks if a `restaurant` object has a `reviews` field.
+ * If it does, increase the `reviews` value by 1. 
+ * If it does not, set the `reviews` value to 1.
+ * @param {object} restaurant   represents a restaurant object
+ * @return {object} restaurant
+ */
 -----------------------------
 Joins two strings with a space.
 
